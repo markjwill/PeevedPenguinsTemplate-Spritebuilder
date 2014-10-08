@@ -15,6 +15,7 @@
     
     if (self) {
         NSLog(@"Seal created");
+        CCLOG(@"Seal created");
     }
     
     return self;

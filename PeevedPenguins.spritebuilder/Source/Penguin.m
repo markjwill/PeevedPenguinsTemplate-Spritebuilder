@@ -15,6 +15,7 @@
     
     if (self) {
         NSLog(@"Penguin created");
+        CCLOG(@"Penguin created");
     }
     
     return self;
