@@ -139,6 +139,8 @@
 					</array>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>UUID</key>
@@ -267,8 +269,6 @@
 					<real>800</real>
 				</dict>
 			</array>
-			<key>selected</key>
-			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -482,7 +482,7 @@
 									<key>elasticity</key>
 									<real>0.30000001192092896</real>
 									<key>friction</key>
-									<real>0.30000001192092896</real>
+									<real>0.10000000149011612</real>
 									<key>points</key>
 									<array>
 										<array>
