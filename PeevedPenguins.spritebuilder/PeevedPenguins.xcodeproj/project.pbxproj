@@ -11,6 +11,7 @@
 		A00BFB4F19E41FFC008E7548 /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BFB4E19E41FFC008E7548 /* Penguin.m */; };
 		A00BFB5319E4202C008E7548 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BFB5219E4202C008E7548 /* Seal.m */; };
 		A00BFB5819E616EF008E7548 /* Bear.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BFB5719E616EF008E7548 /* Bear.m */; };
+		A00BFB5B19E617EB008E7548 /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BFB5A19E617EB008E7548 /* Gameplay.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -66,6 +67,8 @@
 		A00BFB5219E4202C008E7548 /* Seal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Seal.m; path = Source/Seal.m; sourceTree = "<group>"; };
 		A00BFB5619E616EF008E7548 /* Bear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bear.h; path = Source/Bear.h; sourceTree = "<group>"; };
 		A00BFB5719E616EF008E7548 /* Bear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bear.m; path = Source/Bear.m; sourceTree = "<group>"; };
+		A00BFB5919E617EB008E7548 /* Gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gameplay.h; path = Source/Gameplay.h; sourceTree = "<group>"; };
+		A00BFB5A19E617EB008E7548 /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gameplay.m; path = Source/Gameplay.m; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -141,6 +144,8 @@
 				A00BFB5119E4202C008E7548 /* Seal.h */,
 				A00BFB5619E616EF008E7548 /* Bear.h */,
 				A00BFB5719E616EF008E7548 /* Bear.m */,
+				A00BFB5919E617EB008E7548 /* Gameplay.h */,
+				A00BFB5A19E617EB008E7548 /* Gameplay.m */,
 				A00BFB5219E4202C008E7548 /* Seal.m */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
@@ -355,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A00BFB5B19E617EB008E7548 /* Gameplay.m in Sources */,
 				A00BFB5319E4202C008E7548 /* Seal.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
