@@ -53,11 +53,6 @@
     //[cocos2dSetup setObject:kEAGLColorFormatRGB565 forKey:CCConfigPixelFormat];
     
     [self setupCocos2dWithOptions:cocos2dSetup];
-
-    NSLog(@"Will there be Penguins?");
-    [CCBReader load:@"Penguin"];
-    NSLog(@"Will there be Seals?");
-    [CCBReader load:@"Seal"];
     
     return YES;
 }
