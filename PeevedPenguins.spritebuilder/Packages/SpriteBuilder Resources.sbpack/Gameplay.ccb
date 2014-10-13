@@ -55,8 +55,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>230</real>
-						<real>98</real>
+						<real>230.25390625</real>
+						<real>98.375</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -84,7 +84,7 @@
 					<key>type</key>
 					<string>Check</string>
 					<key>value</key>
-					<true/>
+					<false/>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -93,8 +93,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>10</real>
-						<real>-0.5</real>
+						<real>10.25390625</real>
+						<real>4.875</real>
 					</array>
 				</dict>
 				<dict>
@@ -576,7 +576,7 @@
 										<key>value</key>
 										<array>
 											<real>241</real>
-											<real>187</real>
+											<real>182</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
