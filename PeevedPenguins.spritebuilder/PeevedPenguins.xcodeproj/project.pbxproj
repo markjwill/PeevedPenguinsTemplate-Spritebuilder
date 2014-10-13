@@ -139,16 +139,16 @@
 			children = (
 				B737893D1807617C0076A88C /* AppDelegate.h */,
 				B737893E1807617C0076A88C /* AppDelegate.m */,
+				B7378992180767190076A88C /* MainScene.h */,
+				B7378993180767190076A88C /* MainScene.m */,
+				A00BFB5919E617EB008E7548 /* Gameplay.h */,
+				A00BFB5A19E617EB008E7548 /* Gameplay.m */,
 				A00BFB4D19E41FFC008E7548 /* Penguin.h */,
 				A00BFB4E19E41FFC008E7548 /* Penguin.m */,
 				A00BFB5119E4202C008E7548 /* Seal.h */,
+				A00BFB5219E4202C008E7548 /* Seal.m */,
 				A00BFB5619E616EF008E7548 /* Bear.h */,
 				A00BFB5719E616EF008E7548 /* Bear.m */,
-				A00BFB5919E617EB008E7548 /* Gameplay.h */,
-				A00BFB5A19E617EB008E7548 /* Gameplay.m */,
-				A00BFB5219E4202C008E7548 /* Seal.m */,
-				B7378992180767190076A88C /* MainScene.h */,
-				B7378993180767190076A88C /* MainScene.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
