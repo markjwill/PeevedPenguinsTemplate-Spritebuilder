@@ -45,7 +45,6 @@ static const float MIN_SPEED = 5.f;
 - (void)update:(CCTime)delta
 {
     if (_currentPenguin.launched) {
-        
         // if speed is below minimum speed, assume this attempt is over
         if (ccpLength(_currentPenguin.physicsBody.velocity) < MIN_SPEED){
             [self nextAttempt];
@@ -68,6 +67,13 @@ static const float MIN_SPEED = 5.f;
     }
 }
 
+- (void)nextAttempt {
+    _currentPenguin = nil;
+    [_contentNode stopAction:_followPenguin];
+    
+    CCActionMoveTo *actionMoveTo = [CCActionMoveTo actionWithDuration:1.f position:ccp(0, 0)];
+    [_contentNode runAction:actionMoveTo];
+}
 
 // called on every touch in this scene
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
@@ -155,17 +161,8 @@ static const float MIN_SPEED = 5.f;
     
     // ensure followed object is in visible are when starting
     self.position = ccp(0, 0);
-    _followPenguin = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
-    [_contentNode runAction:_followPenguin];
-}
-
-- (void)nextAttempt {
-    NSLog(@"Next Atrempt");
-    _currentPenguin = nil;
-    [_contentNode stopAction:_followPenguin];
-    
-    CCActionMoveTo *actionMoveTo = [CCActionMoveTo actionWithDuration:1.f position:ccp(0, 0)];
-    [_contentNode runAction:actionMoveTo];
+    CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
+    [_contentNode runAction:follow];
 }
 
 -(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB
